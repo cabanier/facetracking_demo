@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"module": "ES2015",
+		"noImplicitAny": false,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"allowJs": true,
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"typeRoots" : ["node_modules/@types", "src/types"],
+	},
+	"include": ["src/**/*"],
+	"exclude": ["**/*.spec.ts"]
+}
