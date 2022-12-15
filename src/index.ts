@@ -61,7 +61,7 @@ const init = async () => {
 
   const loader = new GLTFLoader();
 
-  const gltf = await loader.loadAsync("/assets/facerig.glb");
+  const gltf = await loader.loadAsync("/facetracking_demo/assets/facerig.glb");
 
   const model = gltf.scene;
 

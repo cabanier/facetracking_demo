@@ -24117,7 +24117,7 @@
           body_group.add(part);
         }
         const loader = new GLTFLoader();
-        const gltf = yield loader.loadAsync("/assets/facerig.glb");
+        const gltf = yield loader.loadAsync("/facetracking_demo/assets/facerig.glb");
         const model = gltf.scene;
         headBone = model.getObjectByName("DEF-Head");
         neckBone = model.getObjectByName("DEF-Neck");
